@@ -1,0 +1,26 @@
+.main {
+    margin: 2rem 8rem;
+    margin-bottom: 1.5rem;
+}
+
+.fa-trash-alt {
+    color: var(--danger);
+    cursor: pointer;
+}
+
+.btn--container {
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+.delete-btn {
+    padding: 1rem 3rem;
+    background-color: var(--green-color);
+    border: none;
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-radius: .7rem;
+    box-shadow: 5px 3px 13px #555;
+}

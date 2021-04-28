@@ -1,0 +1,27 @@
+:root {
+    --green-color: #02c980;
+    --danger: #fc5a72;
+    --dark-color: #222457;
+    --table-grey: #ddd;
+    --white: #fff;
+    --blue: #0c4bcc;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--table-grey);
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.7;
+}

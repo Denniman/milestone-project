@@ -1,0 +1,31 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin: .7rem auto;
+    border: 2px solid #fff;
+    font-size: 1.7rem;
+
+    .caption {
+        background-color: var(--green-color);
+        padding-top: 1.5rem;
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    td, th {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 1.4rem;
+    } 
+
+    th {
+        color: #fff;
+        background-color: var(--dark-color);
+    }
+
+        tr:nth-child(even) {
+        background-color: #fff;
+      }
+}
