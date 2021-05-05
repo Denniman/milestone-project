@@ -18,101 +18,50 @@
 
     <main class="main">
         <div class="btn--container">
-            <button class="delete-btn">Add Student</button>
+            <button class="add-btn">Sign Up</button>
         </div>
 
         <table class="table">
-            <tr>
-                <th>Surname</th>
-                <th>Firstname</th>
-                <th>Age</th>
-                <th>Current Level</th>
-                <th>Favorite Club</th>
-                <th>Delete</th>
-            </tr>
-            <tr>
-                <td>Terna</td>
-                <td>Dennis</td>
-                <td>25</td>
-                <td>400</td>
-                <td>Arsenal</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
-            <tr>
-                <td>Peter</td>
-                <td>Okoro</td>
-                <td>27</td>
-                <td>300</td>
-                <td>Chelsea</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
-            <tr>
-                <td>Peter</td>
-                <td>Okoro</td>
-                <td>27</td>
-                <td>300</td>
-                <td>Chelsea</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
-            <tr>
-                <td>Peter</td>
-                <td>Okoro</td>
-                <td>27</td>
-                <td>300</td>
-                <td>Chelsea</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
-            <tr>
-                <td>Peter</td>
-                <td>Okoro</td>
-                <td>27</td>
-                <td>300</td>
-                <td>Chelsea</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
-            <tr>
-                <td>Peter</td>
-                <td>Okoro</td>
-                <td>27</td>
-                <td>300</td>
-                <td>Chelsea</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
-            <tr>
-                <td>Peter</td>
-                <td>Okoro</td>
-                <td>27</td>
-                <td>300</td>
-                <td>Chelsea</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
-            <tr>
-                <td>Peter</td>
-                <td>Okoro</td>
-                <td>27</td>
-                <td>300</td>
-                <td>Chelsea</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
-            <tr>
-                <td>Peter</td>
-                <td>Okoro</td>
-                <td>27</td>
-                <td>300</td>
-                <td>Chelsea</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
-            <tr>
-                <td>Peter</td>
-                <td>Okoro</td>
-                <td>27</td>
-                <td>300</td>
-                <td>Chelsea</td>
-                <td><i class="fas fa-trash-alt"></i></td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Surname</th>
+                    <th>Firstname</th>
+                    <th>Age</th>
+                    <th>Current Level</th>
+                    <th>Favorite Club</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+                      
         </table>
     </main>
 
-    
+
+    <section class="modal">
+        <div class="modal__content">
+            <span class="close">&times;</span>
+            <form action="" class="modal--form">
+                <h2 class="form--header">Enter Details</h2>
+                <input type="text" placeholder="Surname" name="surname" id="surname" class="user--input surname" required>
+                <input type="text" placeholder="First name" name="firstName" id="fname" class="user--input fname" required>
+                <select name="level" id="select-level" class="user--input level">
+                    <option value="">--Select level--</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                    <option value="300">300</option>
+                    <option value="400">400</option>
+                    <option value="500">500</option>
+                </select>
+                <input type="text" placeholder="Favorite Club" name="club" id="club" class="user--input club" required>
+                <input type="number" placeholder="Age" name="age" class="user--input age" id="age" required>
+                <button type="submit" class="btn modal--btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+<script src="./js/app.js"></script>  
 </body>
 </html>

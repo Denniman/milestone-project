@@ -5,6 +5,7 @@
     margin: .7rem auto;
     border: 2px solid #fff;
     font-size: 1.7rem;
+    overflow: auto;
 
     .caption {
         background-color: var(--green-color);
@@ -15,14 +16,14 @@
     }
 
     td, th {
-        border: 1px solid #ddd;
+        // border: 1px solid #ddd;
         text-align: center;
         padding: 1.4rem;
     } 
 
     th {
         color: #fff;
-        background-color: var(--dark-color);
+        background-color: var(--dark-green);
     }
 
         tr:nth-child(even) {
