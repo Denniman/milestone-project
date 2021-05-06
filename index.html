@@ -45,8 +45,8 @@
             <span class="close">&times;</span>
             <form action="" class="modal--form">
                 <h2 class="form--header">Enter Details</h2>
-                <input type="text" placeholder="Surname" name="surname" id="surname" class="user--input surname" required>
-                <input type="text" placeholder="First name" name="firstName" id="fname" class="user--input fname" required>
+                <input type="text" placeholder="Surname" name="surname" id="surname" class="user--input surname" autocomplete="off" required>
+                <input type="text" placeholder="First name" name="firstName" id="fname" class="user--input fname" autocomplete="off" required>
                 <select name="level" id="select-level" class="user--input level">
                     <option value="">--Select level--</option>
                     <option value="100">100</option>
@@ -55,8 +55,8 @@
                     <option value="400">400</option>
                     <option value="500">500</option>
                 </select>
-                <input type="text" placeholder="Favorite Club" name="club" id="club" class="user--input club" required>
-                <input type="number" placeholder="Age" name="age" class="user--input age" id="age" required>
+                <input type="text" placeholder="Favorite Club" name="club" id="club" class="user--input club" autocomplete="off" required>
+                <input type="number" placeholder="Age" name="age" class="user--input age" id="age" autocomplete="off" required>
                 <button type="submit" class="btn modal--btn">Submit</button>
             </form>
         </div>

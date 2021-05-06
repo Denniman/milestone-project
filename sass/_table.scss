@@ -16,8 +16,7 @@
     }
 
     td, th {
-        // border: 1px solid #ddd;
-        text-align: center;
+        text-align: left;
         padding: 1.4rem;
     } 
 
@@ -28,5 +27,8 @@
 
         tr:nth-child(even) {
         background-color: #fff;
+      }
+      tr {
+          margin-top: 1.5rem;
       }
 }

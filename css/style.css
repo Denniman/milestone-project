@@ -18,7 +18,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-color: var(--table-grey);
+  background-color: #f5f6f8;
   font-family: 'Nunito', sans-serif;
   line-height: 1.7; }
 
@@ -75,13 +75,15 @@ body {
     color: #fff;
     font-weight: 600; }
   .table td, .table th {
-    text-align: center;
+    text-align: left;
     padding: 1.4rem; }
   .table th {
     color: #fff;
     background-color: var(--dark-green); }
   .table tr:nth-child(even) {
     background-color: #fff; }
+  .table tr {
+    margin-top: 1.5rem; }
 
 .modal {
   display: none;
@@ -146,7 +148,7 @@ body {
 .surname, .fname,
 .club, .age, .level {
   width: 60%;
-  padding: .375rem .75rem;
+  padding: .475rem .75rem;
   margin-bottom: 1.5rem;
   border-radius: .3rem;
   color: #495057;
@@ -154,7 +156,11 @@ body {
   border: 1px solid #ced4da; }
   .surname:focus, .fname:focus,
   .club:focus, .age:focus, .level:focus {
-    outline: none; }
+    outline: none;
+    border-color: tomato;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 145, 71, 0.9);
+    box-shadow: 0 0 0 0.2rem rgba(255, 145, 71, 0.9); }
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -165,3 +171,13 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 .user--input {
   -moz-appearance: textfield; }
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -100%); }
+  50% {
+    opacity: .4; }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%); } }
