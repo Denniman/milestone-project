@@ -1,2 +1,2 @@
 # milestone-project
-A simple web page for collecting and displaying a fictional student club data
+A simple web page for a fictional movie club for collecting and displaying members data
